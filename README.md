@@ -1,46 +1,17 @@
-# FaceTimeOS: Mac-use AI Voice Agents
+# FaceTimeOS / Agent Shortcut For All Work: Mac-use AI Voice Agents
 
 Control your entire Mac with AI voice Agents, via:
 
-1. **FaceTime**: Text your Mac asking to start a FaceTime, it start a session and share screen. Then, talk naturally to instruct any computer-related task.
+1. **FaceTime**: Text your Mac asking to start a FaceTime, it starts a session and shares screen. Then, talk naturally to instruct any computer-related task.
 2. **iMessage**: Text any other prompt, it will fulfill your task
 
 🏆 **1st Place Grand Prize** at Cal Hacks 12.0 (world's largest collegiate hackathon) - [Devpost](https://devpost.com/software/facetime-macos-ai-agent)
-- Dylan Lu, Calvin Lu, Davyn Paringkoan
 
-## FaceTime Demo
-
-<a href="https://www.youtube.com/watch?v=zN96RdE0OSg" target="_blank">
-  <picture>
-    <img src="https://img.youtube.com/vi/zN96RdE0OSg/maxresdefault.jpg" alt="Project Demo (YouTube)" />
-  </picture>
-</a>
-
-> Click the image to watch the full demo on YouTube.
-
-## iMessage Demo
-
-https://github.com/user-attachments/assets/77a8fe7f-ca2f-4002-9a24-dcf0cfffc0de
-
-## Overview
-
-Our project is organized into three folders
-
-1. `Agent-S` — Our fork of the current SoTA computer-use agent framework. [Original Repo](https://github.com/simular-ai/Agent-S)
-2. `backend` - Flask server to handle iMessage/FaceTime and generate voice transcriptions and replies
-3. `frontend` — UI to prompt and view current actions of Agent S
-
-![FaceTimeOS System Diagram](docs/diagram.png)
-
-## Quick Start
-
-All you need is a single LLM key. Export `OPENAI_API_KEY` (or swap in the key for your preferred provider) and you’re ready.
-
-**1. Install dependencies**
+## Setup & Installation
 
 ```bash
-git clone https://github.com/ThePickleGawd/FaceTimeOS.git
-cd FaceTimeOS
+git clone https://github.com/dhavajsjain15/AGENT-SHORTCUT-FOR-ALL-WORK.git
+cd AGENT-SHORTCUT-FOR-ALL-WORK
 
 # Setup Agent-S (see original repo for more details/debugging)
 cd Agent-S
